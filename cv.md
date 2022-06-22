@@ -9,9 +9,10 @@
 * GitHub: [@rawchenko](https://github.com/rawchenko)
 * Phone: [+7 (961) 543-81-54](tel:+79615438154)
 * Location: Russia, Moscow
+
 ### Summary
 
-I am a junior frontend developer.  I graduated with a degree in computer science and I wanted to do my life with frontend development. I spent about a year doing web design for a business analytics startup, creating designs and implementing them. I have a sense of taste, make with beautiful and functional.
+I am a junior frontend developer.  I graduated with a degree in computer science and I wanted to do my life with frontend development. I spent about a year doing web design for a business analytics startup, creating designs and implementing them. I have a sense of taste, make websites beautiful and functional.
 
 ### Skills
 
@@ -22,14 +23,17 @@ I am a junior frontend developer.  I graduated with a degree in computer science
 * TypeScript
 
 ### Education
+
 * Fundamental Computer Science and Information Technology at KalmSU, _2017-2021_
 	+ _Studied computer science and mathematics mostly._
 
 ### Experience
+
 * Qompax, _2020-2021_
 	+ _Did the company website and various design tasks, such as presentations and media materials._
 
 ### Languages
+
 * Russian — Native
 * English — Pre-Intermediate
 
