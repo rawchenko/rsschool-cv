@@ -1,3 +1,133 @@
+*{
+    margin: 0;
+}
+html {
+    font-family: Inter,  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 150%;
+    color: #232323;
+    font-size: 16px;
+}
+p{
+    margin-bottom: 10px;
+}
+main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+a{
+    color: #232323;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid #232323;
+}
 h1{
-    font-size: 50px;
+    margin-top: 5px;
+}
+h2{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.container{
+    margin: 0px auto;
+    width: 600px;
+}
+
+.skills{
+    padding: 0;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+.skills>li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 400;
+    background-color: grey;
+    color: white;
+    border-radius: 50px;
+}
+
+#html{
+    background: #FF7347;
+}
+#css{
+    background: #47D3FF;
+}
+#javascript{
+    background: #FFD747;
+}
+#typescript{
+    background: #FF9447;
+}
+#react{
+    background: #4791FF;
+
+}
+
+
+
+.items>.item{
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+}
+.item-title{
+    width: 150px;
+    color: #8E8E8E;
+}
+.item-content a::after{
+    background-image:  url(assets/arrow-up-right.svg);
+    background-size: 12px;
+    display: inline-block;
+    margin-left: 10px;
+    height: 12px;
+    width: 12px;
+    content: '';
+   
+}
+.item-content{
+    width: 450px;
+}
+
+.item-content:nth-child(2n-1){
+    margin-bottom: 5px;
+}
+.item-content div:nth-child(2n){
+    color:#8E8E8E;
+}
+.profile{
+    display: flex;
+    column-gap: 30px;
+}
+
+
+.profile-image>img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #D8D8D8 0%, #D8D8D8 0.01%, rgba(141, 141, 141, 0) 147.33%);
+    background: #C3C3C333;
+    border: 1px solid #DCDCDC;
+
+}
+
+.status{
+    display: inline-block;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 15px 20px;
+    border: 1px solid #F2F2F2;
+    border-radius: 0px 20px 20px 20px;
+    box-shadow: 0px 4px 18px 0px #0000000D;
+    margin-top: 10px;
+
 }
